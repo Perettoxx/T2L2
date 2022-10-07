@@ -1,0 +1,8 @@
+(Ej1)
+➜  ~ mkdir T2L2
+
+(Ej2)
+➜  ~ cd T2L2
+
+(Ej3)
+➜  T2L2  nano demo.txt
