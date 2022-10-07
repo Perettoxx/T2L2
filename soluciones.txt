@@ -46,3 +46,9 @@ soluciones.txt:esta és la primera línia en minúscules en este fitxer
 soluciones.txt:Esta Línia Té Totes Les Primeres Lletres De Cada Paraula En Majúscules
 soluciones.txt:La línia de dalt està en blanc
 soluciones.txt:Esta és l’ última línia
+
+(Ej7)
+➜  T2L2 grep -E "línia|blanc" demo.txt 
+esta és la primera línia en minúscules en este fitxer
+La línia de dalt està en blanc
+Esta és l’ última línia
