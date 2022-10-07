@@ -18,3 +18,31 @@ esta és la primera línia en minúscules en este fitxer
 Esta Línia Té Totes Les Primeres Lletres De Cada Paraula En Majúscules
 La línia de dalt està en blanc
 Esta és l’ última línia
+
+(Ej6)
+➜  T2L2 mkdir prova
+➜  T2L2 cp demo.txt prova 
+➜  T2L2 cp demo.txt demo2.txt
+➜  T2L2 grep -ri "línia" *
+demo2.txt:ESTA ÉS LA PRIMERA LÍNIA EN MAJÚSCULES EN ESTE FITXER
+demo2.txt:esta és la primera línia en minúscules en este fitxer
+demo2.txt:Esta Línia Té Totes Les Primeres Lletres De Cada Paraula En Majúscules
+demo2.txt:La línia de dalt està en blanc
+demo2.txt:Esta és l’ última línia
+demo.txt:ESTA ÉS LA PRIMERA LÍNIA EN MAJÚSCULES EN ESTE FITXER
+demo.txt:esta és la primera línia en minúscules en este fitxer
+demo.txt:Esta Línia Té Totes Les Primeres Lletres De Cada Paraula En Majúscules
+demo.txt:La línia de dalt està en blanc
+demo.txt:Esta és l’ última línia
+prova/demo.txt:ESTA ÉS LA PRIMERA LÍNIA EN MAJÚSCULES EN ESTE FITXER
+prova/demo.txt:esta és la primera línia en minúscules en este fitxer
+prova/demo.txt:Esta Línia Té Totes Les Primeres Lletres De Cada Paraula En Majúscules
+prova/demo.txt:La línia de dalt està en blanc
+prova/demo.txt:Esta és l’ última línia
+soluciones.txt:esta és la primera línia en minúscules en este fitxer
+soluciones.txt:➜  T2L2 grep -i "línia" demo.txt
+soluciones.txt:ESTA ÉS LA PRIMERA LÍNIA EN MAJÚSCULES EN ESTE FITXER
+soluciones.txt:esta és la primera línia en minúscules en este fitxer
+soluciones.txt:Esta Línia Té Totes Les Primeres Lletres De Cada Paraula En Majúscules
+soluciones.txt:La línia de dalt està en blanc
+soluciones.txt:Esta és l’ última línia
