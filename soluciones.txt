@@ -60,3 +60,9 @@ Esta Línia Té Totes Les Primeres Lletres De Cada Paraula En Majúscules
 (Ej9)
 ➜  T2L2 grep -r "línia" | wc -l
 33  (detecta este documento)
+
+(Ej10)
+➜  T2L2 grep -rn "línia" demo.txt 
+2:esta és la primera línia en minúscules en este fitxer
+5:La línia de dalt està en blanc
+6:Esta és l’ última línia
