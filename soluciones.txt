@@ -5,4 +5,8 @@
 ➜  ~ cd T2L2
 
 (Ej3)
-➜  T2L2  nano demo.txt
+➜  T2L2 nano demo.txt
+
+(Ej4)
+➜  T2L2 grep "esta" demo.txt 
+esta és la primera línia en minúscules en este fitxer
