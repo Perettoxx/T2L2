@@ -56,3 +56,7 @@ Esta és l’ última línia
 (Ej8)
 ➜  T2L2 grep -E "Línia|Totes" demo.txt 
 Esta Línia Té Totes Les Primeres Lletres De Cada Paraula En Majúscules
+
+(Ej9)
+➜  T2L2 grep -r "línia" | wc -l
+33  (detecta este documento)
